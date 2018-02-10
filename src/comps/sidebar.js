@@ -8,7 +8,7 @@ export default class Sidebar extends React.Component {
       fontWeight: 'lighter',
       fontSize: '22px',
       letterSpacing: '.5px',
-      padding: '20px',
+      paddingTop: '30px',
     }
 
     const subtitle = {
@@ -17,8 +17,8 @@ export default class Sidebar extends React.Component {
       color: 'white',
       fontWeight: '300',
       letterSpacing: '.5px',
-      padding: '20px',
       marginTop: '30px',
+      paddingBottom: '20px',
     }
 
     return (
