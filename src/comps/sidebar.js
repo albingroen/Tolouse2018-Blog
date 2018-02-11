@@ -27,6 +27,7 @@ export default class Sidebar extends React.Component {
           <h2 style={sidebarTitle}>Albin Groen's blog</h2>
           <p style={subtitle}>Posts</p>
           <ul>
+            <ListItem number="2" path="/post2" item="Travel-day" />
             <ListItem number="1" path="/post1" item="Tomorrow is the day" />
           </ul>
         </div>
