@@ -1,0 +1,48 @@
+.image {
+  width: 80%;
+  height: 800px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.image1 {
+  background-image: url('../static/images/bild1.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.image2 {
+  background-image: url('../static/images/bild2.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.image3 {
+  background-image: url('../static/images/bild3.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.image4 {
+  background-image: url('../static/images/bild4.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.image5 {
+  background-image: url('../static/images/bild5.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.image6 {
+  background-image: url('../static/images/bild6.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+@media (max-width: 1200px) {
+  .image {
+    width: 100%;
+  }
+}

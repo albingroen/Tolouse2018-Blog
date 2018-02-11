@@ -1,4 +1,5 @@
 import React from 'react'
+import './post2.css'
 
 export default class Post2 extends React.Component {
   render() {
@@ -37,6 +38,7 @@ export default class Post2 extends React.Component {
         <div className="image image3" />
         <div className="image image4" />
         <div className="image image5" />
+        <div className="image image6" />
       </div>
     )
   }
